@@ -1,0 +1,54 @@
+.history {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  padding-bottom: 4.5rem;
+}
+
+.entry {
+  margin-bottom: 1.5rem;
+}
+
+.entry-date {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.entry-content {
+  line-height: 1.7;
+}
+
+/* Ensure rich text formatting looks clean */
+.entry-content b,
+.entry-content strong {
+  font-weight: 600;
+}
+
+.entry-content i,
+.entry-content em {
+  font-style: italic;
+}
+
+.entry-content u {
+  text-decoration: underline;
+}
+
+.entry-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.8rem;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.delete-btn:hover {
+  text-decoration: underline;
+}

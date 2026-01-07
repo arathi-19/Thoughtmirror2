@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile | Thought Mirror</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="logo">
+        <img src="assets/logo.png" alt="Thought Mirror Logo">
+    </div>
+  </header>
+
+  <main class="profile">
+
+    <h1>Your Profile</h1>
+    <p class="subtitle">
+      Manage your personal information and data preferences.
+    </p>
+
+    <!-- User Info -->
+    <section class="card">
+      <h3>User Information</h3>
+
+      <div class="info-row">
+        <span>Name</span>
+        <strong>Demo User</strong>
+      </div>
+
+      <div class="info-row">
+        <span>Email</span>
+        <strong>demo@thoughtmirror.app</strong>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section class="card">
+      <h3>Privacy & Data Usage</h3>
+      <p>
+        Your journal entries are private and analyzed only to generate
+        insights and recommendations. No data is shared with third parties.
+      </p>
+    </section>
+
+    <!-- Data Controls -->
+    <section class="card">
+      <h3>Data Controls</h3>
+
+      <button class="btn secondary full" id="exportBtn">
+        📤 Export My Journal Data
+      </button>
+
+      <button class="btn danger full" id="clearBtn">
+        🗑️ Clear All Data
+      </button>
+    </section>
+
+  </main>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <a href="dashboard.html">
+      <span>🏠</span>Home
+    </a>
+    <a href="journal.html">
+      <span>✍️</span>Journal
+    </a>
+    <a href="insights.html">
+      <span>📊</span>Insights
+    </a>
+    <a href="recommendations.html">
+      <span>💡</span>Tips
+    </a>
+    <a href="career.html">
+      <span>🎯</span>Career
+    </a>
+    <a href="profile.html" class="active">
+      <span>👤</span>Profile
+    </a>
+  </nav>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>

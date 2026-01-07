@@ -1,0 +1,15 @@
+.career {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  padding-bottom: 4.5rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  background: #f0f1ff;
+}

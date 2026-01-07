@@ -1,0 +1,26 @@
+.auth-container {
+  max-width: 400px;
+  margin: 12vh auto;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.note {
+  font-size: 0.85rem;
+  color: var(--muted);
+}

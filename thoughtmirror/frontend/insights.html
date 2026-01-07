@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Insights | Thought Mirror</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/insights.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter&display=swap" rel="stylesheet">
+</head>
+<nav class="bottom-nav">
+  <a href="dashboard.html">
+    <span>🏠</span>Home
+  </a>
+  <a href="journal.html">
+    <span>✍️</span>Journal
+  </a>
+  <a href="insights.html" class="active">
+    <span>📊</span>Insights
+  </a>
+  <a href="recommendations.html">
+    <span>💡</span>Tips
+  </a>
+  <a href="career.html">
+    <span>🎯</span>Career
+  </a>
+  <a href="profile.html">
+      <span>👤</span>Profile
+    </a>
+</nav>
+
+<body>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="logo">
+        <img src="assets/logo.png" alt="Thought Mirror Logo">
+    </div>
+    <a href="dashboard.html" class="back">← Back</a>
+  </header>
+
+  <main class="insights">
+
+    <h1>Your Insights</h1>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-period="daily">Daily</button>
+      <button class="tab" data-period="weekly">Weekly</button>
+      <button class="tab" data-period="monthly">Monthly</button>
+    </div>
+
+    <!-- Sentiment Chart -->
+    <section class="card">
+      <h3>Sentiment Trend</h3>
+      <div class="chart" id="sentimentChart"></div>
+    </section>
+
+    <!-- Keywords -->
+    <section class="card">
+      <h3>Top Themes</h3>
+      <ul id="keywords"></ul>
+    </section>
+
+    <!-- Summary -->
+    <section class="card highlight">
+      <h3>Reflection Summary</h3>
+      <p id="summaryText"></p>
+    </section>
+
+  </main>
+
+  <script src="js/insights.js"></script>
+</body>
+</html>

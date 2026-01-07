@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Journal | Thought Mirror</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/journal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter&display=swap" rel="stylesheet">
+</head>
+<nav class="bottom-nav">
+  <a href="dashboard.html">
+    <span>🏠</span>Home
+  </a>
+  <a href="journal.html" class="active">
+    <span>✍️</span>Journal
+  </a>
+  <a href="insights.html">
+    <span>📊</span>Insights
+  </a>
+  <a href="recommendations.html">
+    <span>💡</span>Tips
+  </a>
+  <a href="career.html">
+    <span>🎯</span>Career
+  </a>
+  <a href="profile.html">
+      <span>👤</span>Profile
+    </a>
+</nav>
+
+<body>
+
+  <!-- Top Bar -->
+<header class="topbar">
+    <div class="logo">
+        <img src="assets/logo.png" alt="Thought Mirror Logo">
+    </div>
+    <a href="dashboard.html" class="back">← Back</a>
+  </header>
+  <main class="journal">
+    <h1>Today’s Reflection</h1>
+    <p class="hint">Use the toolbar to format your text.</p>
+
+    <!-- Formatting Toolbar -->
+    <div class="toolbar">
+    <button type="button" onclick="format('bold')" title="Bold"><b>B</b></button>
+    <button type="button" onclick="format('italic')" title="Italic"><i>I</i></button>
+    <button type="button" onclick="format('underline')" title="Underline"><u>U</u></button>
+    </div>
+
+    <!-- Rich Text Editor -->
+    <div id="editor" class="editor" contenteditable="true"></div>
+
+    <div class="footer">
+  <span id="charCount">0 characters</span>
+
+  <div class="journal-actions">
+    <button class="btn primary" id="saveBtn">
+      💾 Save Entry
+    </button>
+
+    <a href="history.html" class="history-link">
+      📚 View Journal History
+    </a>
+  </div>
+</div>
+
+
+  </main>
+
+  <script src="js/journal.js"></script>
+</body>
+</html>

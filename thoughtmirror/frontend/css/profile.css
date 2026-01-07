@@ -1,0 +1,27 @@
+.profile {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  padding-bottom: 4.5rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.danger {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+.danger:hover {
+  background: #e05252;
+}

@@ -1,0 +1,42 @@
+.insights {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  padding-bottom: 4.5rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #eaeaff;
+  color: var(--primary);
+}
+
+.tab.active {
+  background: var(--primary);
+  color: white;
+}
+
+.chart {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-end;
+  height: 160px;
+}
+
+.bar {
+  width: 26px;
+  border-radius: 10px;
+}
+
+.bar.low { background: #ff7675; }
+.bar.medium { background: #fbc531; }
+.bar.high { background: #4cd137; }
